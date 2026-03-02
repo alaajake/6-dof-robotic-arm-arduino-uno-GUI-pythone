@@ -15,10 +15,10 @@ if %errorlevel% neq 0 (
 )
 
 echo [INFO] Starting Robot Arm Controller...
-echo [INFO] Script: software\gui_control.py
+echo [INFO] Script: gui_control.py
 echo.
 
-python "software\gui_control.py"
+python "gui_control.py"
 
 if %errorlevel% neq 0 (
     echo.

@@ -12,7 +12,7 @@ BAUD_RATE = 115200
 JOINT_CONFIG = [
     {"name": "Base Yaw",       "min": 180, "max": 0,   "home": 90, "key_inc": "Right", "key_dec": "Left"},
     {"name": "Shoulder Pitch", "min": 180, "max": 0,   "home": 90, "key_inc": "Up",    "key_dec": "Down"},
-    {"name": "Elbow Pitch",    "min": 0,   "max": 180, "home": 90, "key_inc": "Prior", "key_dec": "Next"}, # PgUp/PgDn
+    {"name": "Elbow Pitch",    "min": 0,   "max": 180, "home": 90, "key_inc": "t",     "key_dec": "r"},
     {"name": "Wrist Pitch",    "min": 0,   "max": 180, "home": 90, "key_inc": "w",     "key_dec": "s"},
     {"name": "Wrist Roll",     "min": 0,   "max": 145, "home": 48, "key_inc": "d",     "key_dec": "a"},
     {"name": "Gripper",        "min": 0,   "max": 160, "home": 90, "key_inc": "e",     "key_dec": "q"}
@@ -85,7 +85,7 @@ class RobotArmGUI:
             ttk.Label(row, text=keys, width=15).pack(side="right")
 
         # Instructions
-        ttk.Label(self.root, text="Controls: Arrows, PgUp/Dn, W/S, A/D, Q/E").pack(pady=5)
+        ttk.Label(self.root, text="Controls: Arrows, R/T, W/S, A/D, Q/E").pack(pady=5)
 
     def get_label_text(self, index):
         name = JOINT_CONFIG[index]['name']

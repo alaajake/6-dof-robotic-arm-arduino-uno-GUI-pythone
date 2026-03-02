@@ -2,7 +2,7 @@
 
 A complete control system for a 6-Degree-of-Freedom (6-DOF) robotic arm, featuring an Arduino-based firmware controller with smooth motion ramping and a Python-based GUI for real-time control.
 
-![Robot Arm](WhatsApp%20Image%202026-03-02%20at%203.45.18%20PM.jpeg)
+![Robot Arm](robotic%20arme%20(1).jpeg)
 
 ## Features
 
@@ -14,10 +14,10 @@ A complete control system for a 6-Degree-of-Freedom (6-DOF) robotic arm, featuri
 
 ## Gallery
 
-![Arm View 1](WhatsApp%20Image%202026-03-02%20at%203.45.19%20PM.jpeg)
-![Arm View 2](WhatsApp%20Image%202026-03-02%20at%203.45.20%20PM%20(1).jpeg)
-![Arm View 3](WhatsApp%20Image%202026-03-02%20at%203.45.20%20PM.jpeg)
-![Arm View 4](WhatsApp%20Image%202026-03-02%20at%203.45.39%20PM.jpeg)
+![Arm View 1](robotic%20arme%20(2).jpeg)
+![Arm View 2](robotic%20arme%20(3).jpeg)
+![Arm View 3](robotic%20arme%20(4).jpeg)
+![Arm View 4](robotic%20arme%20(5).jpeg)
 
 ## Installation
 
@@ -67,5 +67,5 @@ A complete control system for a 6-Degree-of-Freedom (6-DOF) robotic arm, featuri
 This project is open source.
 
 ---
-**Signed by jakelap.com**  
+**Signed by [jakelap.com](http://jakelap.com/)**  
 [Instagram: @jak.elap2](https://www.instagram.com/jak.elap2/)

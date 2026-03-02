@@ -1,0 +1,14 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Arduino
+*.hex
+*.elf
+*.bin
+
+# System
+Thumbs.db
+Desktop.ini
+.DS_Store
